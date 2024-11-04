@@ -22,9 +22,12 @@ Ce projet consiste en un tableau de bord interactif créé avec Power BI pour an
 - **DAX** : Langage de formule utilisé pour les mesures et les colonnes calculées.
 
 ## Mesures Importantes
-- **Nombre de clients** : `NbreClients = COUNT(Customers[CustomerKey])`
-- **Total des salaires** : `TotalSalaires = SUM(Salaries[Amount])`
-- **Pourcentage des mariés/célibataires** : Utilisation de la fonction `CALCULATE()` avec des filtres.
+- **YY somme salaire annuel** = SUM(Customers[YearlyIncome])
+- **YY nbreHomme** = COUNTROWS(FILTER(Customers,Customers[Gender]="M"))`
+- **YY nbrefemme** = COUNTROWS(FILTER(Customers,Customers[Gender]="M"))
+- **YY Clientscelibataires** = CALCULATE(DISTINCTCOUNT(Customers[CustomerKey]),FILTER(Customers,Customers[MaritalStatus]="S"))
+- **YY Clientsmariés** = CALCULATE(DISTINCTCOUNT(Customers[CustomerKey]),FILTER(Customers,Customers[MaritalStatus]="M"))
+- **YY %hommes** = DIVIDE([YY nbreHomme],([YY nbrefemmes]+[YY nbreHomme]),0)
 
 ## Comment Utiliser le Tableau de Bord
 1. **Filtrage interactif** : Utilisez les filtres pour affiner les données par date de premier achat, nombre d'enfants, etc.
@@ -74,20 +77,8 @@ Voici un aperçu du tableau de bord Power BI :
 - Intégrer des prévisions de données pour une meilleure projection.
 
 ## Auteur
-Ce projet a été réalisé par [Ton Nom], passionné par la visualisation de données et l'analyse décisionnelle.
+Ce projet a été réalisé par Ryan TCHUISSEU, passionné par la visualisation de données et l'analyse décisionnelle.
 
 ## Contact
-Pour toute question ou collaboration, n'hésitez pas à me contacter via [ton email] ou à visiter mon [LinkedIn](ton-lien-linkedin).
-
-
-
-## Améliorations Futures
-- Ajouter de nouvelles visualisations pour l'analyse des tendances de consommation.
-- Intégrer des prévisions de données pour une meilleure projection.
-
-## Auteur
-Ce projet a été réalisé par [Ton Nom], passionné par la visualisation de données et l'analyse décisionnelle.
-
-## Contact
-Pour toute question ou collaboration, n'hésitez pas à me contacter via [ton email] ou à visiter mon [LinkedIn](ton-lien-linkedin).
+Pour toute question ou collaboration, n'hésitez pas à me contacter via donel.tchuisseu@gmaiL.com ou à visiter mon  http://www.linkedin.com/in/ryan-tchuisseu.
 
