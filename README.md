@@ -2,7 +2,23 @@
 # Tableau de bord Power BI - Analyse des Données des Clients
 
 ## Introduction
-Ce projet consiste en un tableau de bord interactif créé avec Power BI pour analyser les données des clients, y compris leur profil démographique, le statut matrimonial, le salaire annuel, la répartition des véhicules possédés, et bien plus. Il a été conçu pour fournir des insights utiles et visuels pour faciliter la prise de décision.
+Ce projet consiste en un tableau de bord interactif créé avec Power BI pour analyser les données des clients, y compris leur profil démographique, le statut matrimonial, le salaire annuel, la répartition des véhicules possédés, et bien plus. Il a été conçu pour fournir des insights utiles et visuels pour faciliter la prise de décision
+
+## Contexte du Projet
+Plusieurs entreprises ont besoin de solutions de visualisation de données pour analyser leur clientèle et optimiser leurs stratégies de vente et de marketing. Ce tableau de bord Power BI a été conçu pour une entreprise fictive spécialisée dans la vente de biens et services haut de gamme, souhaitant améliorer sa connaissance des clients et identifier des opportunités de croissance.
+
+### Objectifs du Projet
+- **Analyse des caractéristiques démographiques** : Identifier la répartition de la clientèle par âge, genre, statut matrimonial, et occupation pour personnaliser les offres et campagnes marketing.
+- **Étude de la répartition des revenus** : Comprendre comment les salaires des clients se répartissent afin de mieux cibler les segments à fort pouvoir d'achat.
+- **Propriétés des clients** : Analyser le nombre de voitures possédées par les clients et identifier les principaux propriétaires pour des stratégies de fidélisation.
+- **Prise de décision basée sur les données** : Fournir des insights exploitables pour les équipes de vente et de gestion.
+
+### Cas d'Utilisation
+Ce tableau de bord peut être utilisé par les départements de marketing et de vente pour :
+- Cibler les campagnes promotionnelles sur des groupes spécifiques de clients.
+- Développer des stratégies basées sur le comportement d'achat des clients selon leur profil.
+- Identifier des tendances cachées qui pourraient influencer les futures décisions stratégiques de l'entreprise.
+
 
 ## Fonctionnalités Principales
 - **Nombre total de clients** : Indique le nombre total de clients analysés.
